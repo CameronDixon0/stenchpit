@@ -2,6 +2,8 @@ let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
 
 window.onload = () => {
+    if (window.innerWidth < 600) return;
+
     let cc = document.querySelector(".cursor-circle");
     let cc2 = document.querySelector(".cursor-circle-2");
 
