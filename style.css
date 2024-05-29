@@ -118,3 +118,13 @@ body:has(a:hover) .cursor-circle-2 {
     opacity: 1;
     fill: var(--hover-fill);
 }
+
+@media screen and (max-width: 600px) {
+    .cursor-circle {
+        display: none;
+    }
+
+    .cursor-circle-2 {
+        display: none;
+    }
+}
